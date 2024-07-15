@@ -28,44 +28,6 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### Datasets
-
-Creating a directory for the datasets
-
-```sh
-mkdir -p ./data
-```
-
-Installing the necessary libriaries for the installation and extraction
-
-```sh
-# For Debian / Ubuntu
-sudo apt-get update && sudo apt-get install -y wget gzip
-```
-
-Go to the dedicated folder in order to donwload the different datasets
-
-```sh
-cd ./data
-```
-
-#### HAI 20.07
-
-In order to fetch and unzip the files of the HAI dataset, run the following commands :
-
-```sh
-wget -v https://raw.githubusercontent.com/icsdataset/hai/master/hai-20.07/test1.csv.gz
-wget -v https://raw.githubusercontent.com/icsdataset/hai/master/hai-20.07/test2.csv.gz
-wget -v https://raw.githubusercontent.com/icsdataset/hai/master/hai-20.07/train1.csv.gz
-wget -v https://raw.githubusercontent.com/icsdataset/hai/master/hai-20.07/train2.csv.gz
-```
-
-For unzipping the files :
-
-```sh
-gunzip *.gz
-```
-
 ## 🧑‍💻 Usage
 
 ## 🤝 Contribution
