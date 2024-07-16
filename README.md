@@ -4,6 +4,10 @@ This project uses multiple machine-learning algorithms to analyze the impact of 
 
 ## 🗃️ Datasets
 
+### 🇰🇷 HAI 20.07
+
+### 🇸🇬 SWaT
+
 ## 🧠 AI Models
 
 ## 📊 Results
