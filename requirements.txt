@@ -1,2 +1,6 @@
 pandas
-ipykernel
+matplotlib
+jupyter
+numpy
+tensorflow[and-cuda]
+scikit-learn
