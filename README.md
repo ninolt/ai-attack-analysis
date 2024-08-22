@@ -1,48 +1,36 @@
-# 🌊 AI-Driven Analysis of Water Treatment Sensor Data
+# Attack chains of sensors on a water-treatment system
 
-This project uses multiple machine-learning algorithms to analyze the impact of physical and cyber attacks on a water treatment system.
+## Installation
 
-## 🗃️ Datasets
+### Python virtual environnement
 
-### 🇰🇷 HAI 20.07
-
-### 🇸🇬 SWaT
-
-## 🧠 AI Models
-
-## 📊 Results
-
-## 🛠 Installation
-
-This section is dedicated to the installation of the project.
-
-### Python Environement
-
-Creating a virtual environement
-
-```sh
+```bash
 python3 -m venv .venv
 ```
 
-Installing the dependencies
-
-```sh
+```bash
 source .venv/bin/activate
+```
 
+```bash
 pip install -r requirements.txt
 ```
 
-## 🧑‍💻 Usage
-
-## 🤝 Contribution
-
-- [Nino Lalanne-Tisné](https://github.com/ninolt)
-
-## 📜 License
-
-This project is licensed under the [MIT license](/LICENSE).
-
 ### Datasets
 
-- The [HAI](https://github.com/icsdataset/hai) dataset is licensed under a [Creative Commons Attribution-ShareAlike License (CC BY-SA 4.0)](http://creativecommons.org/licenses/by-sa/4.0/). 
-- You can access the terms of usage of the SWaT dataset [here](https://itrust.sutd.edu.sg/itrust-labs_datasets/dataset_info/).
+You can just run the first cell in the Jupyter notebook, but in case this doesn't work, you have to:
+
+- Download the following files :
+  https://raw.githubusercontent.com/icsdataset/hai/master/hai-20.07/test1.csv.gz
+  https://raw.githubusercontent.com/icsdataset/hai/master/hai-20.07/test2.csv.gz
+  https://raw.githubusercontent.com/icsdataset/hai/master/hai-20.07/train1.csv.gz
+  https://raw.githubusercontent.com/icsdataset/hai/master/hai-20.07/train2.csv.gz
+
+- Unzip them
+- Place them in a "/data" folder, which should be right next to the jupyter file
+
+## Starting the project
+
+```bash
+jupyter notebook
+```
