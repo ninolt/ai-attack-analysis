@@ -1,6 +1,7 @@
-pandas
-matplotlib
-jupyter
-numpy
-tensorflow[and-cuda]
-scikit-learn
+jupyter==1.1.1
+matplotlib==3.10.7
+numpy==2.3.4
+pandas==2.3.3
+scikit-learn==1.7.2
+tensorflow[and-cuda]==2.20.0
+pip_system_certs==5.3

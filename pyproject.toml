@@ -3,12 +3,13 @@ name = "ai-attack-analysis"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.11.8"
 dependencies = [
-    "jupyter>=1.1.1",
-    "matplotlib>=3.10.1",
-    "numpy>=2.0.2",
-    "pandas>=2.2.3",
-    "scikit-learn>=1.6.1",
-    "tensorflow[and-cuda]>=2.18.0",
+    "jupyter==1.1.1",
+    "matplotlib==3.10.7",
+    "numpy==2.3.4",
+    "pandas==2.3.3",
+    "pip-system-certs==5.3",
+    "scikit-learn==1.7.2",
+    "tensorflow[and-cuda]==2.20.0",
 ]
