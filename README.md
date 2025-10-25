@@ -70,16 +70,13 @@ You can run this notebook directly in [Google Colab](https://colab.research.goog
 
 **Step 3 :** Click on the `hai.ipynb` file in order to open the project.
 
-## Datasets
+## Citation
 
-You can just run the first cell in the Jupyter notebook, but in case this doesn't work, you have to:
+This project uses the **HAI (HIL-based Augmented ICS) Security Dataset**, described in the following publications:
 
-- Download the following files :
-  - https://raw.githubusercontent.com/icsdataset/hai/master/hai-20.07/test1.csv.gz
-  - https://raw.githubusercontent.com/icsdataset/hai/master/hai-20.07/test2.csv.gz
-  - https://raw.githubusercontent.com/icsdataset/hai/master/hai-20.07/train1.csv.gz
-  - https://raw.githubusercontent.com/icsdataset/hai/master/hai-20.07/train2.csv.gz
-
-- Unzip them
-- Place them in a "/data" folder, which should be right next to the jupyter file
-
+> **HAI Security Datasets (2023)**
+>  
+> Hyeok-Ki Shin, Woomyo Lee, Seungoh Choi, Jeong-Han Yun, and Byung-Gi Min.  
+> *HAI Security Datasets.*  
+> 2023.  
+> Available at: [https://github.com/icsdataset/hai](https://github.com/icsdataset/hai)
